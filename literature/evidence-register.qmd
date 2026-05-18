@@ -6,14 +6,14 @@ title: "Literature Evidence Register"
 
 Four literature bodies are reviewed:
 
-1. **Proprioceptive training interventions** — do constrained-foot devices produce 
+1. **Proprioceptive training interventions** — do balance and foot-pressure interventions produce 
    lasting changes in movement patterns? What outcome measures are standard?
 2. **Golf weight transfer and GRF** — what is the baseline evidence on pressure 
    shift patterns and their measurement?
 3. **Foot pressure intervention in golf** — has anyone directly manipulated foot 
    pressure during the swing and measured the effect?
 4. **Golf training aid efficacy trials** — peer-reviewed before/after studies 
-   on physical golf training devices
+   on golf training interventions
 
 ## Extraction Template
 
@@ -48,7 +48,7 @@ Each paper is extracted using the following structure:
 | Hupperets et al. (2009) — home proprioceptive training ankle sprain RCT (BMJ) | High — 35% reduction in recurrence, good design | To extract |
 | Zech et al. (2010) — proprioceptive training sport systematic review | High — outcome measure summary across sports | To extract |
 | Benis et al. (2024) — proprioceptive training sports performance systematic review (PMC11225257) | High — covers multiple sports, performance outcomes | To extract |
-| TOGU training golf swing 4 weeks (PMC11587031) | High — directly relevant, golf + balance device + before/after | **Priority extract** |
+| TOGU training golf swing 4 weeks (PMC11587031) | High — directly relevant, golf + balance training + before/after | **Priority extract** |
 | ACL proprioception RCT (Tandfonline 2025) | Medium — outcome measures useful but not golf | To extract |
 
 ---
@@ -92,7 +92,7 @@ Each paper is extracted using the following structure:
 
 ### Preliminary finding
 
-No peer-reviewed RCT of a physical foot/balance constraint training device specifically 
+No peer-reviewed RCT of a foot-pressure or balance-training intervention specifically 
 for golf weight transfer was identified. This represents the primary gap this project 
 addresses.
 

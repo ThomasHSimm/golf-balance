@@ -8,12 +8,11 @@ and paste to Claude along with the PDF.
 ## Prompt Template
 
 ```
-This is a paper for a literature review supporting a preliminary trial of a 
-proprioceptive balance training device applied to golf swing weight transfer.
+This is a paper for a literature review supporting a preliminary study of 
+balance-focused training applied to golf swing weight transfer.
 
-The device constrains the foot to medial edge loading, 
-similar to ski edge engagement. The trial will measure changes in centre of 
-pressure timing and magnitude before and after a training period.
+The study will measure changes in centre of pressure timing and magnitude before 
+and after a training period.
 
 Please extract the following from the attached paper:
 
@@ -44,7 +43,7 @@ Flag anything that directly contradicts assumptions in our experiment design.
 ## Priority Papers (extract first)
 
 1. **TOGU training golf 4 weeks** (PMC11587031)  
-   Most comparable design — balance device, golf, before/after, neuromuscular outcomes
+   Most comparable design — balance training, golf, before/after, neuromuscular outcomes
 
 2. **GRF systematic review** (Sports Medicine, DOI: 10.1007/s40279-025-02391-3)  
    Defines what GRF outcome measures are standard and what natural variability looks like

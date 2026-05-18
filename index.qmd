@@ -1,19 +1,18 @@
 ---
-title: "Golf Balance Device Research"
+title: "Golf Balance Research"
 ---
 
 ## Overview
 
 This site documents the research background and experimental design for a preliminary 
-trial of a proprioceptive balance training device applied to golf swing weight transfer.
+study of balance-focused training applied to golf swing weight transfer.
 
-The device was originally designed for ski training. This project explores whether the 
-same proprioceptive mechanism — constraining foot pressure to the medial edge — 
-produces measurable changes in golf swing weight transfer patterns.
+The project explores whether targeted balance and foot-pressure training produces 
+measurable changes in golf swing weight transfer patterns.
 
 ## Research Questions
 
-1. Does training with the device produce measurable changes in centre of pressure 
+1. Does balance-focused training produce measurable changes in centre of pressure 
    timing and magnitude during the golf swing?
 2. Are any changes in weight transfer pattern associated with changes in ball outcome 
    (direction, consistency)?
@@ -22,7 +21,7 @@ produces measurable changes in golf swing weight transfer patterns.
 ## Project Structure
 
 - **Literature Register** — systematic review of relevant research across four areas
-- **Experiment Design** — protocol for preliminary trial
+- **Experiment Design** — protocol for preliminary study
 - **Outcome Measures** — rationale for chosen measures
 - **Analysis Plan** — pre-specified statistical approach
 

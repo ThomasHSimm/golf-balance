@@ -1,3 +1,8 @@
 # Ignore temporary experiment working files and local exports
 
 experiment/
+golf-balance-research*/
+/.quarto/
+/_site/
+/docs/
+**/*.quarto_ipynb

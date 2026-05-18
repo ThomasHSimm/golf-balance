@@ -1,21 +1,21 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "literature/*.qmd"
+    - "literature/*.md"
+    - "!experiment/"
+    - "!golf-balance-research*/"
 
 website:
-  title: "Golf Balance Device Research"
+  title: "Golf Balance Research"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: literature/evidence-register.qmd
         text: Literature Register
-      - href: experiment/design.qmd
-        text: Experiment Design
-      - href: experiment/measures.qmd
-        text: Outcome Measures
-      - href: experiment/analysis-plan.qmd
-        text: Analysis Plan
 
 format:
   html:

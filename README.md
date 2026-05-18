@@ -1,19 +1,16 @@
-# Golf Balance Device Research
+# Golf Balance Research
 
-Preliminary research and experiment design for a trial of the balance 
-training device (proprietary design) applied to golf swing 
-weight transfer.
+Preliminary research and experiment design for a study of balance-focused 
+training applied to golf swing weight transfer.
 
 ## Background
 
-The device was originally designed for ski training. It constrains the foot to 
-medial edge loading via a rigid aluminium rail, mimicking the proprioceptive 
-demand of ski edge engagement. Golf coaching literature identifies this same 
-medial edge pressure pattern as critical to correct trail foot loading at the 
-backswing transition.
+This project explores whether targeted balance and foot-pressure training can 
+produce measurable changes in centre of pressure timing, weight transfer, and 
+ball-striking outcomes during the golf swing.
 
-No peer-reviewed trial of this device for golf exists. This project constitutes 
-preliminary feasibility work.
+This project constitutes preliminary feasibility work before any formal data 
+collection.
 
 ## Repo Structure
 
@@ -25,11 +22,11 @@ golf-balance-research/
 │   ├── evidence-register.qmd   # Systematic literature register
 │   ├── extraction-prompt.md    # Reusable prompt for paper analysis
 │   └── extractions/            # One .md file per extracted paper
-├── experiment/
+├── experiment/                 # Local-only working files, ignored by git
 │   ├── design.qmd              # Trial protocol
 │   ├── measures.qmd            # Outcome measures rationale
 │   └── analysis-plan.qmd      # Pre-specified statistical approach
-└── docs/                       # Quarto site output (GitHub Pages)
+└── _site/                      # Local Quarto render output, ignored by git
 ```
 
 ## Rendering the Site
@@ -44,16 +41,15 @@ This repository includes a GitHub Actions workflow at `.github/workflows/quarto-
 On every push to `main`, the workflow will:
 
 - install Quarto
-- render the site into `docs/`
-- deploy the generated site to the `gh-pages` branch
+- render the site into `_site/`
+- deploy the generated site with GitHub Pages
 
 ## GitHub Pages setup
 
 After you push this repository to GitHub, enable Pages from:
 
 1. `Settings` → `Pages`
-2. `Source` → `gh-pages` branch
-3. `Folder` → `/ (root)`
+2. `Source` → `GitHub Actions`
 
 If your branch is not `main`, update the workflow branch name accordingly.
 
@@ -68,5 +64,4 @@ If your branch is not `main`, update the workflow branch name accordingly.
 ## Collaborators
 
 - Golf instructor (expert consultant)
-- Device inventor (to be confirmed)
 - Data analysis: T. Simm
