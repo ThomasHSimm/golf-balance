@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: quarto-actions/setup-quarto@v3
+      - uses: quarto-dev/quarto-actions/setup@v2
       - name: Render Quarto website
         run: quarto render
       - name: Upload Pages artifact
