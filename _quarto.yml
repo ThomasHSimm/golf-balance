@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Golf Balance Device Research"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: literature/evidence-register.qmd
+        text: Literature Register
+      - href: experiment/design.qmd
+        text: Experiment Design
+      - href: experiment/measures.qmd
+        text: Outcome Measures
+      - href: experiment/analysis-plan.qmd
+        text: Analysis Plan
+
+format:
+  html:
+    theme: cosmo
+    toc: true
